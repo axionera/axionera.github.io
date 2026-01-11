@@ -30,7 +30,7 @@ const Contact: React.FC = () => {
                 </svg>
               </div>
               <p className="text-slate-500 text-xs uppercase font-bold mb-2">Call Us</p>
-              <a href="tel:+15195672889" className="text-white text-xl font-medium hover:text-indigo-400 transition-colors">+1 519-567-2889</a>
+              <a href="tel:+15195672889" className="text-white text-xl font-medium hover:text-indigo-400 transition-colors">+1 (519) 567-2889</a>
             </div>
           </div>
         </div>
