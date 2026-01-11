@@ -2,7 +2,11 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    # This list must include the exact name of the branch you are pushing to.
+    # Added 'master' as it is a common alternative to 'main'.
+    branches: [ main, master ]
+  # Allows you to manually run this workflow from the Actions tab
+  workflow_dispatch:
 
 permissions:
   contents: read
